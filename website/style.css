@@ -1,0 +1,98 @@
+/* General style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(201, 212, 137);
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(8, 19, 68);
+    color: white;
+    width: 1900px;
+    padding: 10px;
+    left: 0;
+}
+
+/* All around navigation */
+.nav {
+    padding: 10px;
+    background-color: rgb(8, 19, 68);
+    font-size: 50px;
+    display: block;
+}
+.navs {
+    padding-left: 10px;
+}
+
+/* Navigation links */
+.navs:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.navs:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.navs:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+.navs:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+/* Index */
+h1, h2, .blurb {
+    text-align: center;
+}
+#catto {
+    margin-left: 590px;
+    margin-right: auto;
+}
+#disclaimer {
+    margin-top: 10px;
+}
+form {
+    text-align: center;
+    margin-top: 00px;
+}
+
+/* Favorites */
+table, td, tr {
+    text-align: center;
+    border: 1px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    padding: 20px;
+}
+th {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#ps2 {
+    float: right;
+    padding: 50px;
+    margin-right: 500px;
+}
+#inn {
+    float: left;
+    margin-top: -100px;
+    margin-left: 70px;
+}
+iframe {
+    display:block;
+    margin: 0 auto;
+}
+
+/* Spots */
+#lanes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
