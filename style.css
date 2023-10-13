@@ -4,11 +4,11 @@ body {
     background: rgb(201, 212, 137);
 }
 footer {
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
+    bottom: -100px;
     background-color: rgb(8, 19, 68);
     color: white;
-    width: 1900px;
+    width: 1882px;
     padding: 10px;
     left: 0;
 }
@@ -55,11 +55,16 @@ h1, h2, .blurb {
     margin-right: auto;
 }
 #disclaimer {
-    margin-top: 10px;
+    margin-top: 40px;
 }
 form {
     text-align: center;
     margin-top: 00px;
+}
+#sound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Favorites */
